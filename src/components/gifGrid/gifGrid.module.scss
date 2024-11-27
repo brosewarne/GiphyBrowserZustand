@@ -1,0 +1,9 @@
+@use "@app/app/_base" as *;
+
+.grid-container {
+  margin-bottom: $spacing;
+  padding: 0 $spacing-3 $spacing-3;
+  @media (max-width: 600px) {
+    justify-content: center;
+  }
+}

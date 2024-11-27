@@ -1,0 +1,14 @@
+@use "@app/app/_base" as *;
+
+button.close-button {
+  position: absolute;
+  right: $spacing;
+  top: $spacing;
+  color: var(--mui-palette-grey-500);
+}
+
+.save-button {
+  display: flex;
+  justify-content: center;
+  padding: $spacing;
+}

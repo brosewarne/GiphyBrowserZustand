@@ -1,0 +1,8 @@
+@use "@app/app/_base" as *;
+
+.button-container {
+  display: flex;
+  margin-top: $spacing-2;
+  margin-bottom: $spacing-2;
+  justify-content: center;
+}

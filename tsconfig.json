@@ -1,0 +1,28 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "lib": ["esnext", "dom"],
+    "module": "node16",
+    "moduleResolution": "node16",
+    "types": ["@testing-library/jest-dom"],
+    "strict": true,
+    "declaration": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["src/*"],
+      "@mocks/*": ["src/test/mocks/*"]
+    },
+    "rootDir": ".",
+    "outDir": "./dist"
+  }
+}
